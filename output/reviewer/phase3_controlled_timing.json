@@ -1,0 +1,5 @@
+{
+  "note": "Same-config (batch 32) on RTX 5090; CPU inference batch=1, 4 threads.",
+  "train_seconds_per_seed": {"CNN-GRU-MS-Matched": 53, "CNN-GRU-MS-Small": 50, "CNN-GRU-MS-full": 56, "BiEF": 128},
+  "cpu_inference_ms_per_forecast": {"CNN-GRU-MS-Matched_0.48M": 3.0, "CNN-GRU-MS-full_2.85M": 3.3, "BiEF_0.47M": 13.4, "ConvLSTM-ED_0.30M": 8.0}
+}

@@ -1,0 +1,39 @@
+{
+  "model": "CNN-GRU-MS(gru_hidden=40)",
+  "n_params": 479292,
+  "params_M": 0.479,
+  "platform": "GPU (RTX 4060)",
+  "seeds": [
+    42,
+    123,
+    456,
+    789
+  ],
+  "avg_rmse_u_mean": 19.081000000000003,
+  "avg_rmse_u_std": 0.23024769271373827,
+  "avg_rmse_v_mean": 22.632749999999998,
+  "avg_rmse_v_std": 0.265196507329942,
+  "per_seed_u": [
+    19.385,
+    19.223,
+    18.855,
+    18.861
+  ],
+  "per_seed_v": [
+    22.874,
+    22.919,
+    22.337,
+    22.401
+  ],
+  "beats_bief_u_all_seeds": true,
+  "beats_bief_v_all_seeds": true,
+  "note": "4 of 5 seeds (run stopped to free daily-use GPU box); seed 1024 not collected",
+  "published_single_seed_cpu": [
+    19.233,
+    22.556
+  ],
+  "BiEF_0.47M": [
+    19.43,
+    22.99
+  ]
+}

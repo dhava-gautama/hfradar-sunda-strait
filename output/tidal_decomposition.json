@@ -1,0 +1,34 @@
+{
+  "Persistence": {
+    "total_rmse_u": 16.026124954223633,
+    "total_rmse_v": 20.223873138427734,
+    "tidal_rmse_u": 0.14830079674720764,
+    "tidal_rmse_v": 0.19853609800338745,
+    "resid_rmse_u": 35.84794998168945,
+    "resid_rmse_v": 39.73216247558594
+  },
+  "UTide": {
+    "total_rmse_u": 1154684032.0,
+    "total_rmse_v": 1187090560.0,
+    "tidal_rmse_u": 0.0,
+    "tidal_rmse_v": 0.0,
+    "resid_rmse_u": 1154684032.0,
+    "resid_rmse_v": 1187090560.0
+  },
+  "CNN": {
+    "total_rmse_u": 11.310827255249023,
+    "total_rmse_v": 15.649620056152344,
+    "tidal_rmse_u": 0.0,
+    "tidal_rmse_v": 0.0,
+    "resid_rmse_u": 28.85055160522461,
+    "resid_rmse_v": 33.444908142089844
+  },
+  "CNN-GRU": {
+    "total_rmse_u": 11.346693992614746,
+    "total_rmse_v": 15.47436809539795,
+    "tidal_rmse_u": 0.0,
+    "tidal_rmse_v": 0.0,
+    "resid_rmse_u": 29.26406478881836,
+    "resid_rmse_v": 33.42396926879883
+  }
+}

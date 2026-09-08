@@ -1,0 +1,28 @@
+{
+  "upload_type": "software",
+  "title": "Analysis code for: Comparative evaluation of statistical and deep learning methods for high-frequency radar surface current forecasting in a narrow tropical strait",
+  "creators": [
+    { "name": "Gautama, Dhava", "affiliation": "Indonesia Meteorology, Climatology, and Geophysical Agency (BMKG), Jakarta, Indonesia" },
+    { "name": "Putra, Alifficionaldo A.", "affiliation": "Indonesia Meteorology, Climatology, and Geophysical Agency (BMKG), Jakarta, Indonesia; Department of Meteorology, University of Reading, UK" }
+  ],
+  "description": "Python code that reproduces all tables, figures, and reported numbers of the manuscript 'Comparative evaluation of statistical and deep learning methods for high-frequency radar surface current forecasting in a narrow tropical strait' (Gautama & Putra, submitted to ASCMO). A three-phase benchmark of twelve forecasting methods for HF-radar surface currents in the Sunda Strait: persistence, tidal harmonics (UTide), classical time series (moving average, exponential smoothing, ARIMA), a reduced-rank EOF-VAR spatio-temporal statistical model, shallow machine learning (temporal kNN, perceptron, MLP), and spatio-temporal deep learning (CNN, GRU, CNN-GRU; and for six-hour nowcasting ConvLSTM-ED, BiEF, CNN-GRU-MS). Includes full-domain ARIMA with ADF/AIC/Ljung-Box diagnostics, an extended ARIMA order search (p, q <= 4) with seasonal SARIMA evaluation and out-of-sample verification, an ARIMA tidal-vs-residual skill decomposition, multi-seed uncertainty, a controlled same-platform multi-seed (single-GPU, identical config) direct-vs-autoregressive and parameter-matched architecture comparison with training- and single-CPU inference-cost benchmarks, seasonal stratification, gap-fill contamination analysis, vector error metrics, and along-/cross-strait wind-projection analysis. The raw BADA HF-radar and BMKG AWS data are access-controlled under Indonesian national regulation (Peraturan BMKG No. 4/2022) and available on reasonable request to the corresponding author; BATNAS bathymetry is openly available, as documented in the README.",
+  "access_right": "open",
+  "license": "mit",
+  "version": "1.2.0",
+  "language": "eng",
+  "keywords": [
+    "Sunda Strait",
+    "HF radar",
+    "surface currents",
+    "current forecasting",
+    "deep learning",
+    "convolutional neural network",
+    "gated recurrent unit",
+    "ARIMA",
+    "EOF-VAR",
+    "spatio-temporal statistics",
+    "tidal currents",
+    "Python"
+  ],
+  "notes": "After the journal article is assigned a DOI, link it to this record via 'Related/alternate identifiers' with relation 'is supplement to'."
+}

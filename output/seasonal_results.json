@@ -1,0 +1,70 @@
+{
+  "Persistence": {
+    "SE monsoon (Jul-Aug)": {
+      "n_steps": 1488,
+      "rmse_u": 14.642844200134277,
+      "rmse_v": 17.643190383911133
+    },
+    "Transition (Sep-Nov)": {
+      "n_steps": 2184,
+      "rmse_u": 15.676581382751465,
+      "rmse_v": 20.64460563659668
+    },
+    "NW monsoon (Dec-Feb)": {
+      "n_steps": 2089,
+      "rmse_u": 17.27777862548828,
+      "rmse_v": 21.457996368408203
+    }
+  },
+  "CNN": {
+    "SE monsoon (Jul-Aug)": {
+      "n_steps": 1488,
+      "rmse_u": 10.214936256408691,
+      "rmse_v": 13.354312896728516
+    },
+    "Transition (Sep-Nov)": {
+      "n_steps": 2184,
+      "rmse_u": 11.21810245513916,
+      "rmse_v": 16.064979553222656
+    },
+    "NW monsoon (Dec-Feb)": {
+      "n_steps": 2089,
+      "rmse_u": 12.118857383728027,
+      "rmse_v": 16.68684959411621
+    }
+  },
+  "GRU": {
+    "SE monsoon (Jul-Aug)": {
+      "n_steps": 1488,
+      "rmse_u": 10.1886625289917,
+      "rmse_v": 13.296931266784668
+    },
+    "Transition (Sep-Nov)": {
+      "n_steps": 2184,
+      "rmse_u": 11.336106300354004,
+      "rmse_v": 16.106914520263672
+    },
+    "NW monsoon (Dec-Feb)": {
+      "n_steps": 2089,
+      "rmse_u": 12.052013397216797,
+      "rmse_v": 16.50899887084961
+    }
+  },
+  "CNN-GRU": {
+    "SE monsoon (Jul-Aug)": {
+      "n_steps": 1488,
+      "rmse_u": 10.19346809387207,
+      "rmse_v": 13.10660171508789
+    },
+    "Transition (Sep-Nov)": {
+      "n_steps": 2184,
+      "rmse_u": 11.186505317687988,
+      "rmse_v": 15.940299987792969
+    },
+    "NW monsoon (Dec-Feb)": {
+      "n_steps": 2089,
+      "rmse_u": 12.253819465637207,
+      "rmse_v": 16.499900817871094
+    }
+  }
+}

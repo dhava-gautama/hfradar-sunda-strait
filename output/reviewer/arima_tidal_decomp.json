@@ -1,0 +1,40 @@
+{
+  "order": [
+    1,
+    0,
+    1
+  ],
+  "constituents": [
+    "M2",
+    "S2",
+    "K1",
+    "O1",
+    "N2",
+    "K2",
+    "P1",
+    "M4"
+  ],
+  "test_steps": 5761,
+  "n_cells": 291,
+  "raw_arima_total_rmse": null,
+  "u": {
+    "tidal_variance_fraction": 0.2064,
+    "persistence_tidal_rmse": 0.068,
+    "residual_rms": 45.236,
+    "arima_residual_rmse": 16.03,
+    "persistence_residual_rmse": 16.03,
+    "arima_residual_skill_vs_persistence": -0.0,
+    "arima_residual_frac_var_explained": 0.8744,
+    "n": 1676451
+  },
+  "v": {
+    "tidal_variance_fraction": 0.2007,
+    "persistence_tidal_rmse": 0.071,
+    "residual_rms": 47.757,
+    "arima_residual_rmse": 20.422,
+    "persistence_residual_rmse": 20.227,
+    "arima_residual_skill_vs_persistence": -0.0194,
+    "arima_residual_frac_var_explained": 0.8171,
+    "n": 1676451
+  }
+}
